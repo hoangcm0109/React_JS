@@ -27,6 +27,40 @@
 .App-link {
   color: #61dafb;
 }
+.App-btn {
+  margin-top: 20px;
+  background: #282c34;
+  outline: none;
+  padding: 5px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s linear;
+}
+.App-btn:hover {
+  background-color: white;
+  color: #282c34;
+}
+
+button {
+  padding: 5px 20px; 
+  margin: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background: #00b4d8;
+  transition: background-color 0.2s linear;
+}
+
+button:hover {
+  background-color: #023e8a;
+}
+button.active {
+  background-color: #023e8a;
+}
 
 @keyframes App-logo-spin {
   from {
